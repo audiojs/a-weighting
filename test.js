@@ -15,4 +15,5 @@ assert.almost(w.a(1000), 1);
 assert.almost(w.b(1000), 1);
 assert.almost(w.c(1000), 1);
 assert.almost(w.d(1000), 1);
+assert.almost(w.z(1000), 1);
 assert.almost(w.itu(1000), 1);
