@@ -1,0 +1,35 @@
+{
+  "name": "a-weighting",
+  "version": "1.0.0",
+  "description": "A/B/C/D/Z-weighting for audio",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audio-lab/audio-weighting.git"
+  },
+  "keywords": [
+    "audio",
+    "psychoacoustics",
+    "a-weighting",
+    "b-weighting",
+    "c-weighting",
+    "d-weighting",
+    "z-weighting",
+    "noise-weighting",
+    "equal-loudness-curve",
+    "ISO-226",
+    "ITU-R-468"
+  ],
+  "author": "ΔY <dfcreative@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/audio-lab/audio-weighting/issues"
+  },
+  "homepage": "https://github.com/audio-lab/audio-weighting#readme",
+  "devDependencies": {
+    "almost-equal": "^1.1.0"
+  }
+}
