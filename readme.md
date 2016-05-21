@@ -1,4 +1,4 @@
-# audio-weighting [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
+# a-weighting [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
 
 Perform A-weighting (and others) for a frequency.
 Useful for creating believable spectrum images and other audio measurements.
@@ -7,7 +7,7 @@ Useful for creating believable spectrum images and other audio measurements.
 
 ## Usage
 
-[![npm install noise-weighting](https://nodei.co/npm/noise-weighting.png?mini=true)](https://npmjs.org/package/noise-weighting/)
+[![npm install a-weighting](https://nodei.co/npm/a-weighting.png?mini=true)](https://npmjs.org/package/a-weighting/)
 
 ```js
 var aWeight = require('a-weighting/a');
