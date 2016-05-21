@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/audio-lab/audio-weighting.git"
+    "url": "git+https://github.com/audio-lab/a-weighting.git"
   },
   "keywords": [
     "audio",
@@ -26,9 +26,9 @@
   "author": "ΔY <dfcreative@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/audio-lab/audio-weighting/issues"
+    "url": "https://github.com/audio-lab/a-weighting/issues"
   },
-  "homepage": "https://github.com/audio-lab/audio-weighting#readme",
+  "homepage": "https://github.com/audio-lab/a-weighting#readme",
   "devDependencies": {
     "almost-equal": "^1.1.0"
   }

@@ -1,7 +1,9 @@
 # audio-weighting [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
 
-Perform A-weighting (and others) on the set of frequencies.
+Perform A-weighting (and others) for a frequency.
 Useful for creating believable spectrum images and other audio measurements.
+
+![A-weighting](https://upload.wikimedia.org/wikipedia/commons/3/39/Acoustic_weighting_curves_%281%29.svg "A-weighting")
 
 ## Usage
 
