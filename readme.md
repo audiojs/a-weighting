@@ -1,7 +1,7 @@
 # a-weighting [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
 
 Perform A-weighting (and others) for a frequency.
-Useful for creating believable spectrum images and other audio measurements.
+Useful for creating believable spectrum images and audio measurements.
 
 <img alt="A-weighting" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Acoustic_weighting_curves_%281%29.svg" width="400"/>
 
@@ -34,10 +34,10 @@ Implemented weights:
 
 ## Credits
 
-Thanks to all the specialists who researched and developed these curves and wikipedia for detailed articles on this.
+Thanks to all the specialists who researched and described these curves (years of work I guess) and wikipedia for detailed articles on this.
 
 ## Related
 
 * [fourier-transform](https://github.com/scijs/fourier-transform) — fft fast implementation.
 * [gl-spectrum](https://github.com/audio-lab/gl-spectrum) — spectrum rendering component.
-* [Equal-loudness-contours](https://en.wikipedia.org/wiki/Equal-loudness_contour)
+* [Equal-loudness-contours](https://en.wikipedia.org/wiki/Equal-loudness_contour).
