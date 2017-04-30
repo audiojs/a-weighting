@@ -7,6 +7,6 @@ module.exports = {
 	b: require('./b'),
 	c: require('./c'),
 	d: require('./d'),
-	itu: require('./itu'),
+	m: require('./m'),
 	z: require('./z')
 };
