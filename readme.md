@@ -1,5 +1,7 @@
 # a-weighting [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/audiojs/a-weighting.svg)](https://greenkeeper.io/)
+
 Perform A-weighting (and others) for a frequency.
 Useful for creating believable spectrum images and audio measurements.
 
