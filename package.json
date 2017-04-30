@@ -1,6 +1,6 @@
 {
   "name": "a-weighting",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A/B/C/D/Z-weighting for audio",
   "main": "index.js",
   "scripts": {
