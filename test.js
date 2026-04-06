@@ -1,19 +1,26 @@
-var assert = require('assert');
-var almost = require('almost-equal');
-var w = require('./');
+import test from 'node:test'
+import { strict as assert } from 'node:assert'
+import { a, b, c, d, m, z } from './index.js'
 
-assert.almost = function (x, y) {
-	var EPSILON = 10e-3;
-	if (!almost(x, y, EPSILON)) assert.fail(x, y,
-		`${x} ≈ ${y}`, '≈');
+let EPS = 1e-2
 
-	return true;
-};
+test('all weightings ≈ 1 at 1000 Hz', () => {
+	assert.ok(Math.abs(a(1000) - 1) < EPS, `a(1000) = ${a(1000)}`)
+	assert.ok(Math.abs(b(1000) - 1) < EPS, `b(1000) = ${b(1000)}`)
+	assert.ok(Math.abs(c(1000) - 1) < EPS, `c(1000) = ${c(1000)}`)
+	assert.ok(Math.abs(d(1000) - 1) < EPS, `d(1000) = ${d(1000)}`)
+	assert.ok(Math.abs(m(1000) - 1) < EPS, `m(1000) = ${m(1000)}`)
+	assert.equal(z(1000), 1)
+})
 
+test('a-weighting attenuates low and high frequencies', () => {
+	assert.ok(a(100) < a(1000))
+	assert.ok(a(20) < a(100))
+	assert.ok(a(16000) < a(4000))
+})
 
-assert.almost(w.a(1000), 1);
-assert.almost(w.b(1000), 1);
-assert.almost(w.c(1000), 1);
-assert.almost(w.d(1000), 1);
-assert.almost(w.z(1000), 1);
-assert.almost(w.m(1000), 1);
+test('z-weighting is always 1', () => {
+	assert.equal(z(20), 1)
+	assert.equal(z(1000), 1)
+	assert.equal(z(20000), 1)
+})

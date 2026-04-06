@@ -1,14 +1,16 @@
 {
   "name": "a-weighting",
-  "version": "1.1.0",
-  "description": "A/B/C/D/Z-weighting for audio",
-  "main": "index.js",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "A/B/C/D/Z/M frequency weighting functions for audio",
+  "exports": "./index.js",
+  "sideEffects": false,
   "scripts": {
-    "test": "node test.js"
+    "test": "node --test test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/audio-lab/a-weighting.git"
+    "url": "git+https://github.com/audiojs/a-weighting.git"
   },
   "keywords": [
     "audio",
@@ -23,13 +25,10 @@
     "ISO-226",
     "ITU-R-468"
   ],
-  "author": "ΔY <dfcreative@gmail.com>",
+  "author": "Dmitry Iv <dfcreative@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/audio-lab/a-weighting/issues"
+    "url": "https://github.com/audiojs/a-weighting/issues"
   },
-  "homepage": "https://github.com/audio-lab/a-weighting#readme",
-  "devDependencies": {
-    "almost-equal": "^1.1.0"
-  }
+  "homepage": "https://github.com/audiojs/a-weighting#readme"
 }
