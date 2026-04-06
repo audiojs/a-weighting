@@ -1,6 +1,6 @@
 {
   "name": "a-weighting",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "A/B/C/D/Z/M frequency weighting functions for audio",
   "exports": "./index.js",
